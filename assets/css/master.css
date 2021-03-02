@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krona One', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../img/email.png");
+    background-size: cover;
+}
+
+.container {
+    width: 70%;
+    border-radius: 12px;
+    display: flex;
+    padding: 0 30px;
+    margin: 80px 0;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+h1 { 
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    color: #fff;
+}

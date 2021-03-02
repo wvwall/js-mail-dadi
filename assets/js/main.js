@@ -19,7 +19,9 @@ for (var i = 0; i < email.length; i++) {
 }
 
 if (diLivio) {
+    document.getElementById("consentito").innerHTML = "CONSENTITO: Email presente.";
     console.log("La sua email permette l'accesso.");
 } else {
+    document.getElementById("consentito").innerHTML = "NEGATO: Email non presente.";
     console.log("La sua email non permette l'accesso.");
 }
