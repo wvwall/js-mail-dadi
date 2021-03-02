@@ -10,8 +10,14 @@ console.log(nPlayer, nComputer);
 
 if (nPlayer > nComputer) {
     console.log("Ha vinto il player");
+    document.getElementById("risultato").innerHTML = "HA VINTO IL PLAYER";
 } else if (nPlayer < nComputer) {
     console.log("Ha vinto il computer");
+    document.getElementById("risultato").innerHTML = "HA VINTO IL COMPUTER";
 }   else {
     console.log("E' finita in parità");
+    document.getElementById("risultato").innerHTML = "PAREGGIO";
 }
+
+document.getElementById("punteggio").innerHTML = "Player: " + nPlayer;
+document.getElementById("punteggio_2").innerHTML = "Computer: " + nComputer;
