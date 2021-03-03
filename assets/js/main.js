@@ -15,6 +15,7 @@ var diLivio = false;
 for (var i = 0; i < emails.length; i++) {
     if (emails[i] === email) {
         diLivio = true;
+        break;
     }
 }
 
