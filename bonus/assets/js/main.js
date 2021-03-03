@@ -19,5 +19,7 @@ if (nPlayer > nComputer) {
     document.getElementById("risultato").innerHTML = "PAREGGIO";
 }
 
+// Stampare il risultato
+
 document.getElementById("punteggio").innerHTML = "Player: " + nPlayer;
 document.getElementById("punteggio_2").innerHTML = "Computer: " + nComputer;
